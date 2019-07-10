@@ -8,7 +8,7 @@ import java.util.Random;
 public class GameJava {
     public static void main(String[] args) throws IOException {
         // 컴퓨터의 0 = 가위, 1 = 바위, 2 = 보
-        // 깃 허브 테스트
+        // 주석 추가한 내용 확인
         Random r = new Random();
         int com = Math.abs(r.nextInt() % 3);
 
