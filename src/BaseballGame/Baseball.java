@@ -107,7 +107,6 @@ public class Baseball {
              System.out.println("C등급");
          } else {
              System.out.println("D등급");
-             System.out.println("정답 : " );
          }
     }
 }
