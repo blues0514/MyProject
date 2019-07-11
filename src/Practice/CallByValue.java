@@ -6,7 +6,7 @@ public class CallByValue {
 
     public static void swap() {
         int temp = a;
-        a = b;
+        a = b; // 전연변수에 바로 저장
         b = temp;
     }
 
@@ -15,7 +15,7 @@ public class CallByValue {
         b = 20;
 
         System.out.println("swap() 메소드 호출 전 : " + a + " , " + b);
-        swap();
+        swap(); //인수 없이 바로 저장
         System.out.println("swap() 메소드 호출 후 : " + a + " , " + b);
 
     }
