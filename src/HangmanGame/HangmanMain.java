@@ -9,7 +9,7 @@ public class HangmanMain {
         int result = hangman.playGame(); // 게임 실행
 
         System.out.println();
-        if(result<=2) {
+        if(result<=2) { // 실패 횟수에 따라 메시지 출력
             System.out.println("A등급");
         } else if(result<=3) {
             System.out.println("B등급");
