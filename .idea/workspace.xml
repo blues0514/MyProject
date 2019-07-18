@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1061fd0-a92e-43ba-8a6c-d11752a28e27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyProject/Practice/Applet/GameJava3_01_Parameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,20 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/91_java_ex_part13/Part3/sec01/GameJava3_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+            <state relative-caret-position="-57">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +53,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>textarea</find>
-      <find>setText</find>
       <find>settext</find>
+      <find>setText</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -362,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563360866626</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add AWT_package + Applet_BaseballGame [ADD]">
+      <created>1563443731572</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563443731572</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -376,9 +371,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +382,7 @@
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2638298" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2638298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +416,8 @@
     <MESSAGE value="Add Practice Code [ADD]" />
     <MESSAGE value="Add Practice Code + HangmanGame2 [ADD]" />
     <MESSAGE value="Add Applet Practice Code [ADD]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Applet Practice Code [ADD]" />
+    <MESSAGE value="Add AWT_package + Applet_BaseballGame [ADD]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AWT_package + Applet_BaseballGame [ADD]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Practice/AccessAuthority/E.java">
@@ -824,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+        <state relative-caret-position="-57">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

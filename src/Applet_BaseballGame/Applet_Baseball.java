@@ -130,29 +130,29 @@ public class Applet_Baseball extends Applet implements ActionListener {
             } else {
                 //숫자 3개 미만 누른 경우
             }
-        }else {
-            if(key<3) {
-                char butVal = ((Button)e.getSource()).getLabel().charAt(0);
+        } else {
+            if (key < 3) {
+                char butVal = ((Button) e.getSource()).getLabel().charAt(0);
                 user[key] = Integer.valueOf(String.valueOf(butVal)).intValue();
 
                 boolean same = false;
                 switch (key) {
-                        case 2:
-                        if(user[key]==user[1]) same = true;
-                        case 1:
-                            if(user[key]==user[0]) same = true;
-                    }
-
-                        if(same) {
-                            //같은 숫자를 누른 경우
-                        } else {
-                            display.setText(display.getText() + butVal);
-                            key++;
-                        }
-                    } else {
-                        //숫자를 3개 이상 누른 경우
-                    }
+                    case 2:
+                        if (user[key] == user[1]) same = true;
+                    case 1:
+                        if (user[key] == user[0]) same = true;
                 }
+
+                if (same) {
+                    //같은 숫자를 누른 경우
+                } else {
+                    display.setText(display.getText() + butVal);
+                    key++;
+                }
+            } else {
+                //숫자를 3개 이상 누른 경우
             }
         }
+    }
+}
 
