@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1061fd0-a92e-43ba-8a6c-d11752a28e27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/Applet_LifrCycle/LifeCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/Thread/myRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/Thread/myThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/Thread/myThreadMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Applet_LifrCycle/LifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/myRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/myThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/myThreadMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,19 +25,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BaseballGame/Baseball.java">
+        <entry file="file://$PROJECT_DIR$/src/Thread/myThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="361">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Thread/myThreadMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java">
+        <entry file="file://$PROJECT_DIR$/src/Thread/myRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="290">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +65,8 @@
       <list>
         <option value="XHTML File" />
         <option value="HTML4 File" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,6 +76,9 @@
       <find>settext</find>
       <find>setText</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\intel-workspace\MyProject</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -64,11 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Practice/Overriding/Dog.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Overriding/DogMain.java" />
-        <option value="$PROJECT_DIR$/src/Practice/Overriding/Snoopy.java" />
-        <option value="$PROJECT_DIR$/src/Practice/ThisSuper/Super.java" />
-        <option value="$PROJECT_DIR$/src/Practice/ThisSuper/Sub.java" />
         <option value="$PROJECT_DIR$/src/Practice/ThisSuper/ssMain.java" />
         <option value="$PROJECT_DIR$/src/Practice/ThisSuper2/Animal.java" />
         <option value="$PROJECT_DIR$/src/Practice/ThisSuper2/Human.java" />
@@ -115,6 +133,11 @@
         <option value="$PROJECT_DIR$/src/Games/Baseball.java" />
         <option value="$PROJECT_DIR$/src/BaseballGame/Baseball.java" />
         <option value="$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java" />
+        <option value="$PROJECT_DIR$/src/Applet_LifrCycle/LifeCycle.java" />
+        <option value="$PROJECT_DIR$/src/Thread/myThreadMain.java" />
+        <option value="$PROJECT_DIR$/src/Thread/myThread.java" />
+        <option value="$PROJECT_DIR$/src/Thread/myRunnable.java" />
+        <option value="$PROJECT_DIR$/src/Thread/myRunnable.html" />
       </list>
     </option>
   </component>
@@ -131,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,14 +172,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Practice/AWT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.17875" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -181,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Applet.Applet_Baseball">
+  <component name="RunManager" selected="Applet.myRunnable">
     <configuration name="Applet_Baseball" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Applet_BaseballGame.Applet_Baseball" />
       <module name="MyProject" />
@@ -189,15 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prac_Canvas" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.AWT.Canvas.Prac_Canvas" />
-      <module name="MyProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Prac_Canvas2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.AWT.Canvas.Prac_Canvas2" />
+    <configuration name="LifeCycle" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Applet_LifrCycle.LifeCycle" />
       <module name="MyProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,13 +226,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prac_Parameter" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Applet.Prac_Parameter" />
-      <module name="MyProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Prac_Parameter" type="Applet" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Applet.Prac_Parameter" />
       <module name="MyProject" />
@@ -224,27 +233,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prac_Scrollbar" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.AWT.Prac_Scrollbar" />
+    <configuration name="myRunnable" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.myRunnable" />
       <module name="MyProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="myThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.myThreadMain" />
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Applet.Prac_Scrollbar" />
-      <item itemvalue="Applet.Prac_Canvas" />
-      <item itemvalue="Applet.Prac_Canvas2" />
-      <item itemvalue="Applet.Prac_Container" />
       <item itemvalue="Applet.Applet_Baseball" />
+      <item itemvalue="Applet.Prac_Container" />
+      <item itemvalue="Applet.LifeCycle" />
+      <item itemvalue="Application.myThreadMain" />
+      <item itemvalue="Applet.myRunnable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.myRunnable" />
+        <item itemvalue="Application.myThreadMain" />
+        <item itemvalue="Applet.LifeCycle" />
         <item itemvalue="Applet.Applet_Baseball" />
         <item itemvalue="Applet.Prac_Container" />
-        <item itemvalue="Applet.Prac_Canvas2" />
-        <item itemvalue="Applet.Prac_Canvas" />
-        <item itemvalue="Applet.Prac_Scrollbar" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563443731572</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Sort Applet_BaseballGame [Change]">
+      <created>1563443965780</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563443965780</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -372,7 +401,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,61 +446,10 @@
     <MESSAGE value="Add Practice Code + HangmanGame2 [ADD]" />
     <MESSAGE value="Add Applet Practice Code [ADD]" />
     <MESSAGE value="Add AWT_package + Applet_BaseballGame [ADD]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AWT_package + Applet_BaseballGame [ADD]" />
+    <MESSAGE value="Sort Applet_BaseballGame [Change]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort Applet_BaseballGame [Change]" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Practice/AccessAuthority/E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AccessAuthority/F.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AccessAuthority/AccessMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Overriding/Snoopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/Overriding/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Practice/Overriding/DogMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -648,34 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myLabel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myButton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myCheckbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myRadiocheck.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myLabel.html" />
+    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myButton.html" />
+    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myCheckbox.html" />
+    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myRadiocheck.html" />
     <entry file="file://$PROJECT_DIR$/src/Practice/AWT/Prac_Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -746,13 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/AWT/myList.html" />
     <entry file="file://$PROJECT_DIR$/src/Practice/AWT/Prac_TextArea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -800,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaseballGame/Baseball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/91_java_ex_part13/Part3/sec01/GameJava3_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-134">
@@ -817,10 +758,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaseballGame/Baseball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Applet_BaseballGame/Applet_Baseball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="209">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Applet_LifrCycle/LifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/myThreadMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/myThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/myRunnable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/myRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
