@@ -7,7 +7,7 @@ import java.awt.event.MouseListener;
 
 public class Prac_Inner extends Applet {
     Label myLabel;
-    int[] x,y;
+    int[] x, y;
     int num;
 
     public void init() {
@@ -26,8 +26,8 @@ public class Prac_Inner extends Applet {
     public void paint(Graphics g) {
         g.setColor(Color.red);
 
-        for(int i = 0 ; i<num ; i++){
-            g.fillOval(x[i]-20,y[i]-20,40,40);
+        for (int i = 0; i < num; i++) {
+            g.fillOval(x[i] - 20, y[i] - 20, 40, 40);
         }
     }
 
@@ -54,7 +54,7 @@ public class Prac_Inner extends Applet {
 
         @Override
         public void mouseClicked(MouseEvent e) {
-            if(num<100) {
+            if (num < 100) {
                 x[num] = e.getX();
                 y[num] = e.getY();
                 num++;
