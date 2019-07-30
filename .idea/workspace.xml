@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1061fd0-a92e-43ba-8a6c-d11752a28e27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/ChattingServer/ChatClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/ChattingServer/ChatServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/ChattingServer/ChatThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/Practice/Thread/myThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyProject/Practice/Thread/myThreadMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChattingServer/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChattingServer/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChattingServer/ChatThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/myRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Thread/myRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/myThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Thread/myThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/myThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Thread/myThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyProject/Practice/Prac_StringTokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyProject/Practice/Prac_StringTokenizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyProject/Thread/myRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyProject/Practice/Thread/myRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyProject/Thread/myThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyProject/Thread/myThreadMain.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,20 +84,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prac_StringTokenizer">
-    <configuration name="Tetris" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TetrisGame.Tetris" />
+  <component name="RunManager" selected="Applet.ChatClient">
+    <configuration name="ChatClient" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChattingServer.ChatClient" />
       <module name="MyProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prac_ServerSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Socket.Prac_ServerSocket" />
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChattingServer.ChatServer" />
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Socket.*" />
+          <option name="PATTERN" value="ChattingServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Applet.Tetris" />
-      <item itemvalue="Application.Prac_ServerSocket" />
       <item itemvalue="Application.Prac_Socket" />
       <item itemvalue="Application.Prac_Vector" />
       <item itemvalue="Application.Prac_StringTokenizer" />
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Applet.ChatClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.Prac_StringTokenizer" />
         <item itemvalue="Application.Prac_Vector" />
         <item itemvalue="Application.Prac_Socket" />
-        <item itemvalue="Application.Prac_ServerSocket" />
-        <item itemvalue="Applet.Tetris" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564470433598</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add Vector,StringTokenizer Code [ADD]">
+      <created>1564471952945</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1564471952945</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -376,7 +392,8 @@
     <MESSAGE value="Add Exception Code [ADD]" />
     <MESSAGE value="Add TetrisGame Code [ADD]" />
     <MESSAGE value="Add mySocket Code [ADD]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mySocket Code [ADD]" />
+    <MESSAGE value="Add Vector,StringTokenizer Code [ADD]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Vector,StringTokenizer Code [ADD]" />
   </component>
   <component name="masterDetails">
     <states>
