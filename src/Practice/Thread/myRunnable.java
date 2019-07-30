@@ -1,4 +1,4 @@
-package Thread;
+package Practice.Thread;
 
 import java.applet.Applet;
 import java.awt.*;

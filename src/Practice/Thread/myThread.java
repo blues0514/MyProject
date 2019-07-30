@@ -1,4 +1,4 @@
-package Thread;
+package Practice.Thread;
 
 public class myThread extends Thread {
     int num = 0;

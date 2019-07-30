@@ -1,4 +1,4 @@
-package Thread;
+package Practice.Thread;
 
 public class myThreadMain {
     public static void main(String[] args) {
