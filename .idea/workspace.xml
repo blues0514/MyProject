@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1061fd0-a92e-43ba-8a6c-d11752a28e27" name="Default Changelist" comment="" />
+    <list default="true" id="a1061fd0-a92e-43ba-8a6c-d11752a28e27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Abstract/AbstractMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Abstract/AbstractMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Abstract/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/HourlyWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Abstract/HourlyWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/MonthlyWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Abstract/MonthlyWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/WeeklyWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Abstract/WeeklyWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Event/myActionEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Event/myActionEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InnerClass/Prac_Inner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/InnerClass/Prac_Inner.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Applet.Prac_Inner">
+  <component name="RunManager" selected="Applet.Prac_Adapter">
     <configuration name="LifeGame" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LifeGame.LifeGame" />
       <module name="MyProject" />
@@ -83,33 +91,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prac_Adapter" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Adapter.Prac_Adapter" />
+      <module name="MyProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Prac_Inner" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Prac_Inner" />
+      <option name="MAIN_CLASS_NAME" value="Practice.InnerClass.Prac_Inner" />
       <module name="MyProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="myActionEvent" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Event.myActionEvent" />
-      <module name="MyProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="myRunnable" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.myRunnable" />
+      <option name="MAIN_CLASS_NAME" value="Practice.Event.myActionEvent" />
       <module name="MyProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstract.AbstractMain" />
+      <option name="MAIN_CLASS_NAME" value="Practice.Abstract.AbstractMain" />
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Abstract.*" />
+          <option name="PATTERN" value="Practice.Abstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Applet.myRunnable" />
       <item itemvalue="Applet.myActionEvent" />
       <item itemvalue="Applet.LifeGame" />
       <item itemvalue="Application.AbstractMain" />
       <item itemvalue="Applet.Prac_Inner" />
+      <item itemvalue="Applet.Prac_Adapter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Prac_Adapter" />
         <item itemvalue="Applet.Prac_Inner" />
         <item itemvalue="Application.AbstractMain" />
         <item itemvalue="Applet.LifeGame" />
         <item itemvalue="Applet.myActionEvent" />
-        <item itemvalue="Applet.myRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564460480182</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add InnerClass Code [ADD]">
+      <created>1564461199920</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564461199920</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add InnerClass Code [ADD]">
+      <created>1564461233824</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564461233824</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -311,7 +333,8 @@
     <MESSAGE value="Add Thread Practice Code [ADD]" />
     <MESSAGE value="Add LifeGame Code [ADD]" />
     <MESSAGE value="Add Abstract Code [ADD]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Abstract Code [ADD]" />
+    <MESSAGE value="Add InnerClass Code [ADD]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add InnerClass Code [ADD]" />
   </component>
   <component name="masterDetails">
     <states>

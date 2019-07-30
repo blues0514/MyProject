@@ -1,4 +1,4 @@
-package Abstract;
+package Practice.Abstract;
 
 abstract class Employee {
     String name;

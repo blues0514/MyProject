@@ -1,4 +1,4 @@
-package Abstract;
+package Practice.Abstract;
 
 public class MonthlyWorker extends Employee {
     int pay_per_hour = 2000;

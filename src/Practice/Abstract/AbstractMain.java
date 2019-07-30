@@ -1,4 +1,4 @@
-package Abstract;
+package Practice.Abstract;
 
 public class AbstractMain {
     public static void main(String[] args) {

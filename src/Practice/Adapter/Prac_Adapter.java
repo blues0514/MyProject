@@ -1,11 +1,12 @@
-package InnerClass;
+package Practice.Adapter;
 
 import java.applet.Applet;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
-public class Prac_Inner extends Applet {
+
+public class Prac_Adapter extends Applet {
     Label myLabel;
     int[] x, y;
     int num;
@@ -31,27 +32,7 @@ public class Prac_Inner extends Applet {
         }
     }
 
-    class MyMouseHandler implements MouseListener {
-        @Override
-        public void mousePressed(MouseEvent e) {
-
-        }
-
-        @Override
-        public void mouseReleased(MouseEvent e) {
-
-        }
-
-        @Override
-        public void mouseEntered(MouseEvent e) {
-
-        }
-
-        @Override
-        public void mouseExited(MouseEvent e) {
-
-        }
-
+    class MyMouseHandler extends MouseAdapter { // 어댑터를 상속받은 내부 클래스로 선언
         @Override
         public void mouseClicked(MouseEvent e) {
             if (num < 100) {
